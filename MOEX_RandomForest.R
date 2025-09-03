@@ -80,9 +80,6 @@ rf_model <- randomForest(
 print(rf_model)
 plot(rf_model)
 
-
-# Продолжение вашего кзова...
-
 # Сортируем данные по дате (на всякий случай)
 prepped_data <- prepped_data[order(prepped_data$date), ]
 # Продолжение вашего кода...
